@@ -1,0 +1,380 @@
+*{
+    overflow: hidden;
+}
+#navbar{
+    display: flex;
+     height: 100px;
+     
+}
+#navbar #logo {
+    margin-left: 20px;
+    height: 70px;
+    width: 100px;
+    margin-top: 15px;
+    
+}
+#navbar #logo img{
+        height: 50px;
+        width: 100px;
+}
+#navbar #button-nav{
+    margin-top: 30px;
+    margin-left: 180px;
+}
+#navbar #button-nav button{
+    height: 30px;
+    width: 60px;
+}
+header{
+   
+    height: 35vh;
+
+}
+
+#Home{
+          position: absolute;
+          top: 120px;
+          z-index: 10;
+
+}
+#Home h1{
+  font-size: 1rem;
+
+}
+#Home p{
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+#Home #para2{
+    font-size: 0.7rem;
+    margin-top: 5px;
+}
+#Home div{
+   display: flex;
+   flex-direction: column;
+}
+#Home input{
+    
+    width: 200px;
+    height: 30px;
+
+}
+#Home input::placeholder{
+    color: white;
+    padding-left: 5px;
+    font-weight: 500;
+    font-size: 0.6rem;
+}
+#Home button{
+    width: 80px;
+    height: 25px;
+    font-size: 0.6rem;
+    margin-top: 5px;
+
+}
+
+#Home button i{
+    font-size: 0.6rem;
+    margin-left: 7px;
+    position: relative;
+    top: 1px;
+   
+}
+#movie{
+    height: 300px;
+}
+#movie-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+#movie-div #movie-des{
+
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    height: 150px;
+    z-index: 17;
+}
+#movie-div #movie-des h1{
+    font-size: 1rem;
+    margin-top: 0px;
+}
+#movie-div #movie-des p{
+    font-size: 0.7rem;
+    margin-top: 5px;
+    padding-left: 0px;
+    padding-right:0px ;
+    text-align: center;
+}
+#movie-div #movie-tv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+height: 200px;
+    left: 0%;
+    z-index: 15;
+    right: 40px;
+    bottom: 50px;
+}
+#movie-div #movie-tv img{
+   position: relative;
+z-index: 13;
+ height: 140px;
+ width: 200px;
+}
+#movie-div #movie-tv video{
+    bottom:3px;
+    left: 25px;
+    width: 160px;
+    height: 200px;
+ 
+}
+#tv{
+    height: 400px;
+
+}
+
+#tv-div{
+    display: flex;
+    flex-direction: column;
+}
+#tv-div #tv-des{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    left: 0%;
+    z-index: 7;
+}
+#tv-div #tv-des h1{
+    font-size: 1rem;
+    margin-top:30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+
+    #tv-div #tv-des p{
+        font-size: 0.6rem;
+        margin-top: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    #tv-div #tv-pic{
+        position: relative;
+        width: 100%;
+       padding-left: 0px;
+       padding-top: 0px;
+       display: flex;
+       flex-direction: column;
+z-index: 10;
+        
+height: 250px;
+     /* background-color: blue; */
+    }
+    #tv-div #tv-pic img{
+        position: relative;
+        height: 250px;
+        width: 380px;
+     
+    }
+    #tv-div #tv-pic #download{
+        position: absolute;
+        top: 180px;
+        left: 90px;
+        width: 190px;
+        height: 70px;
+    }
+
+    #tv-div #tv-pic div #download-img img{
+       
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+    
+    }
+    #tv-div #tv-pic div #download-des{
+    left: 65px;
+    top: 20px;
+    }
+    #tv-div #tv-pic div #download-des #download-des-p1  {
+    font-size: 0.8rem;
+    
+    }
+    #tv-div #tv-pic div #download-des #download-des-p2  {
+        font-size: 0.8rem;
+        
+        }
+     #tv-div #tv-pic div i{
+        
+        left: 165px;
+        top:30px;
+    
+       font-size: 0.8rem;
+        }
+    
+
+
+        #laptop{
+            height: 300px;
+        }
+        #laptop-div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+        
+        }
+        #laptop-div #laptop-des{
+        
+            position: relative;
+            justify-content: center;
+            align-content: center;
+            height: 150px;
+            z-index: 17;
+        }
+        #laptop-div #laptop-des h1{
+            font-size: 1rem;
+            margin-top: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        #laptop-div #laptop-des p{
+            font-size: 0.6rem;
+            margin-top: 5px;
+            padding-left: 0px;
+            padding-right:0px ;
+            text-align: center;
+        }
+        #laptop-div #laptop-tv{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        height: 200px;
+            left: 0%;
+            z-index: 15;
+            right: 40px;
+            bottom: 50px;
+        }
+        #laptop-div #laptop-tv img{
+           position: relative;
+        z-index: 13;
+         height: 140px;
+         width: 200px;
+        }
+        #laptop-div #laptop-tv video{
+            bottom:3px;
+            left: 25px;
+            width: 160px;
+            height: 200px;
+         
+        }
+
+
+
+
+         /* kid sec */
+    
+    #kid{
+        height: 400px;
+    }
+    #kid-div{
+        position: relative;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    #kid-div #kid-des{
+        position: relative;
+        width: 100%;
+           left: 0%;
+      justify-content: center;
+              height: 150px;
+            align-items: normal;
+             bottom: 90px; 
+    }
+    #kid-div #kid-des h1{
+         text-align: center; 
+    font-size: 1rem;
+    padding-left: 0px;
+        padding-right: 0px;
+    }
+    #kid-div #kid-des p{
+        font-size: 0.6rem;
+        margin-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    #kid-div #kid-tv{
+       position: relative;
+        width: 100%;
+       padding-left: 0px;
+       padding-top: 0px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+     /* background-color: blue; */
+    }
+    #kid-div #kid-tv img{
+        position:relative;
+        height: 250px;
+        width: 350px;
+     
+    }
+#footer{
+    height: auto;
+}
+    #footer-div{
+    width: 100%;
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+    #footer-div div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    #footer-div div a{
+        text-align: center;
+    }
+
+    #footer-div #footer-1{
+        margin-left: 0px;
+        margin-top: 10px;
+          }
+          #footer-div #footer-1 #language{
+         
+            width: 100px;
+            display: flex;
+            height: 30px;
+            padding: 5px;
+        }
+          #footer-div #footer-1 #language i{
+            font-size: 1rem;
+             color: rgb(255, 255, 255);
+             z-index: 17;
+           
+            }
+
+            #footer-div #footer-1 #language select{
+             
+                margin-left: 20px;
+              
+                
+            }
